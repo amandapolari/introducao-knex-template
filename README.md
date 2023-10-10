@@ -28,7 +28,7 @@
 
 ### Enunciado:
 
-![Alt text](image.png)
+![Alt text](./src/images/image.png)
 
 ### Resolução:
 
@@ -63,7 +63,7 @@ GET http://localhost:3003/ping
 ```
 
 RESULTADO:
-![Alt text](image-5.png)
+![Alt text](./src/images/image-5.png)
 
 `index.ts`
 
@@ -102,7 +102,7 @@ Um array vazio, porque nãa há conteúd e todo arquivo `.db` retorna um array, 
 
 ### Enunciado:
 
-![Alt text](image-1.png)
+![Alt text](./src/images/image-1.png)
 
 ### Resolução:
 
@@ -176,7 +176,7 @@ Content-Type: application/json
 > ATENÇÃO: MANTER A LINHA EM BRANCO ANTES DA CHAVE!!!
 
 RESULTADO:
-![Alt text](image-4.png)
+![Alt text](./src/images/image-4.png)
 
 ## Prática Guiada 3
 
@@ -184,7 +184,7 @@ RESULTADO:
 
 ### Enunciado:
 
-![Alt text](image-2.png)
+![Alt text](./src/images/image-2.png)
 
 ### Resolução:
 
@@ -264,7 +264,7 @@ Content-Type: application/json
 ```
 
 RESULTADO:
-![Alt text](image-6.png)
+![Alt text](./src/images/image-6.png)
 
 ## Fixação
 
@@ -272,7 +272,7 @@ RESULTADO:
 
 ### Enunciado:
 
-![Alt text](image-3.png)
+![Alt text](./src/images/image-3.png)
 
 ### Resolução:
 
@@ -368,7 +368,7 @@ Content-Type: application/json
 ```
 
 `Response`
-![Alt text](image-7.png)
+![Alt text](./src/images/image-7.png)
 
 `request.rest`
 
@@ -385,7 +385,7 @@ Content-Type: application/json
 ```
 
 `Response`
-![Alt text](image-8.png)
+![Alt text](./src/images/image-8.png)
 
 #### UPDATE:
 
@@ -485,4 +485,4 @@ Content-Type: application/json
 
 `Response`
 
-![Alt text](image-9.png)
+![Alt text](./src/images/image-9.png)
