@@ -1,0 +1,40 @@
+GET http://localhost:3003/ping
+###
+
+GET http://localhost:3003/bands
+###
+
+POST http://localhost:3003/bands
+Content-Type: application/json
+
+{
+    "id": "b001",
+    "name": "Wham!"
+}
+###
+
+POST http://localhost:3003/bands
+Content-Type: application/json
+
+{
+    "id": "b002",
+    "name": "Depeche Mode"
+}
+###
+
+POST http://localhost:3003/bands
+Content-Type: application/json
+
+{
+    "id": "b003",
+    "name": "Rammstein"
+}
+###
+
+PUT http://localhost:3003/bands/b001
+Content-Type: application/json
+
+{
+    "newName": "Coldplay"
+}
+###
