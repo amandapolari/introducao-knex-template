@@ -31,10 +31,70 @@ Content-Type: application/json
 }
 ###
 
-PUT http://localhost:3003/bands/b001
+PUT http://localhost:3003/bands/b004
 Content-Type: application/json
 
 {
-    "newName": "Coldplay"
+    "newName": "Wham!"
+}
+###
+
+POST http://localhost:3003/bands
+Content-Type: application/json
+
+{
+    "id": "b004",
+    "name": "Rammstein"
+}
+###
+
+GET http://localhost:3003/songs
+###
+
+POST http://localhost:3003/songs
+Content-Type: application/json
+
+{
+    "id": "s001",
+    "name": "Yellow",
+    "band_id": "b001"
+}
+###
+
+POST http://localhost:3003/songs
+Content-Type: application/json
+
+{
+    "id": "s002",
+    "name": "Mein Herz Brennt",
+    "band_id": "b003"
+}
+###
+
+POST http://localhost:3003/songs
+Content-Type: application/json
+
+{
+    "id": "s003",
+    "name": "Last Christmas",
+    "band_id": "b004"
+}
+###
+
+POST http://localhost:3003/songs
+Content-Type: application/json
+
+{
+    "id": "s004",
+    "name": "Personal Jesus",
+    "band_id": "b002"
+}
+###
+
+PUT http://localhost:3003/songs/s004
+Content-Type: application/json
+
+{
+    "newName": "Enjoy the Silence!"
 }
 ###
